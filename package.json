@@ -1,0 +1,24 @@
+{
+  "name": "therrou-media-player",
+  "version": "1.0.0",
+  "description": "Mediaplayer plugins in Javascript.",
+  "license": "MIT",
+  "author": "Tomás Octavio Herrou. <tomvcp@gmail.com>",
+  "keywords": [
+    "therrou"
+  ],
+  "scripts": {
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "@sparragus/platzimediaplayer": "^1.0.0"
+  },
+  "main": "sw.js"
+}
